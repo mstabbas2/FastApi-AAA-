@@ -1,0 +1,10 @@
+project/
+│
+├─ main.py        # Entry point
+├─ models.py      # Database models
+├─ schemas.py     # Pydantic schemas
+├─ crud.py        # Database operations
+├─ dependencies.py# Dependencies like get_db
+├─ routers/
+│   ├─ auth.py    # Login/register routes
+│   └─ users.py   # User-related routes
